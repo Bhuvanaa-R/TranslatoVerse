@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    /* overflow: scroll; */
+}
+.left{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 30px;
+}
+.right{
+    flex-basis: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 40px;
+    background-color: #e6e6e6;
+}
+.title{
+    padding: 20px;
+}
+.overview{
+    margin-top: 50px;
+}
+.overview p{
+    font-size: 1.2rem;
+    color: grey;
+}
+.options div,.settings-bar div{
+    margin: 25px 0px;
+}
+#title{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+/* .dashboard{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+} */
+.dashboard{
+    font-weight: bolder;
+}
+.options div a,.settings-bar div a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+.options div span,.settings-bar div span{
+    margin-right: 10px;
+}
+.settings-bar{
+    margin-top: 20px;
+}
+.settings-bar p{
+    color: grey;
+}
+.logout{
+    color: #a83c32;
+}
+.right .search{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.right .search input{
+    width: 90%;
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 40px;
+    padding: 0px 40px;
+    font-size: 1.2rem;
+    color: lightgray;
+}
+.adbox{
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+.adbox p{
+    font-size: 1.3rem;
+    width: 50%;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+.adbox>p{
+    color: lightgrey;
+    font-weight: lighter;
+}
+.adbox span{
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+    border-radius:20px;
+    margin: 20px 0px;
+}
+.tryout{
+    padding: 10px;
+    width: 100%;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search>span{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.boxes div{
+    flex-basis: 60%;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.boxes div a{
+    text-decoration: none;
+    color: black;
+}
+::-webkit-scrollbar{
+    height: 8px;
+	width: 5px;
+}
+::-webkit-scrollbar-track{
+	background: none;
+}
+::-webkit-scrollbar-thumb{
+	background: transparent;
+	border-radius: 5px;
+}
+.right:hover::-webkit-scrollbar-thumb{
+	background: #717171;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #888;
+}
+#start{
+    margin: 20px 0px;
+}
+#title{
+    margin: 0px 0px 20px 0px;
+}
+.profiles{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+.profiles p{
+    display: flex;
+    align-items: center;
+}
